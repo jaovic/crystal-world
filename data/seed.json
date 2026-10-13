@@ -1,0 +1,608 @@
+{
+  "settings": {
+    "whatsapp": "5531997053568",
+    "phone": "(31) 3019-1077",
+    "vipGroupUrl": "",
+    "email": "contato@crystalworldturismo.com.br",
+    "instagram": "https://www.instagram.com/crystalworldturismo",
+    "facebook": "https://www.facebook.com/profile.php?id=61550208013840",
+    "tiktok": "https://www.tiktok.com/@crystalwturismo",
+    "address": "Rua Branca, 21, Vitória, Belo Horizonte/MG (atendimento presencial com horário marcado)",
+    "hours": "",
+    "cnpj": "",
+    "cadastur": ""
+  },
+  "packages": [
+    {
+      "slug": "porto-de-galinhas-dezembro",
+      "title": "Porto de Galinhas",
+      "destinationSlug": "porto-de-galinhas",
+      "scope": "nacional",
+      "categories": [
+        "praia",
+        "familia"
+      ],
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-06",
+      "nights": 5,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "Piscinas naturais, águas mornas e o charme da vila em uma das praias mais queridas do Brasil.",
+      "included": [
+        "Aéreo ida e volta",
+        "Hospedagem com café da manhã",
+        "Traslado aeroporto / hotel / aeroporto",
+        "Seguro viagem"
+      ],
+      "hotel": "Pousada frente mar (exemplo)",
+      "hotelDescription": "Hospedagem a poucos minutos da vila, com piscina e café da manhã regional.",
+      "priceFrom": 3490,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Passeio às piscinas naturais depende da tábua de marés.",
+        "Bagagem despachada sujeita à tarifa aérea escolhida."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "gramado-natal-luz",
+      "title": "Gramado | Natal Luz",
+      "destinationSlug": "gramado",
+      "scope": "nacional",
+      "categories": [
+        "familia",
+        "feriados"
+      ],
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-23",
+      "nights": 4,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "A Serra Gaúcha decorada para o Natal, com gastronomia, espetáculos e clima de montanha.",
+      "included": [
+        "Aéreo ida e volta",
+        "Hospedagem com café da manhã",
+        "Traslado Porto Alegre / Gramado",
+        "City tour Gramado e Canela"
+      ],
+      "hotel": "Hotel no centro de Gramado (exemplo)",
+      "priceFrom": 4290,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Ingressos dos espetáculos do Natal Luz vendidos à parte.",
+        "Feriado com alta procura: disponibilidade limitada."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1512389142860-9c449e58a543",
+        "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "maceio-reveillon",
+      "title": "Maceió | Réveillon",
+      "destinationSlug": "maceio",
+      "scope": "nacional",
+      "categories": [
+        "praia",
+        "feriados",
+        "familia"
+      ],
+      "startDate": "2026-12-28",
+      "endDate": "2027-01-03",
+      "nights": 6,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "Virada do ano com mar verde-esmeralda, piscinas naturais de Pajuçara e passeios pelo litoral alagoano.",
+      "included": [
+        "Aéreo ida e volta",
+        "Hospedagem com café da manhã",
+        "Traslados",
+        "Passeio às piscinas naturais"
+      ],
+      "hotel": "Hotel na orla de Ponta Verde (exemplo)",
+      "priceFrom": 5190,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Ceia de Réveillon não inclusa.",
+        "Período de alta temporada: recomendamos reservar com antecedência."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "orlando-ferias-janeiro",
+      "title": "Orlando | Férias de janeiro",
+      "destinationSlug": "orlando",
+      "scope": "internacional",
+      "categories": [
+        "familia"
+      ],
+      "startDate": "2027-01-10",
+      "endDate": "2027-01-19",
+      "nights": 9,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "Parques, compras e muita diversão em família, com roteiro planejado dia a dia.",
+      "included": [
+        "Aéreo ida e volta",
+        "Hospedagem próxima aos parques",
+        "Carro alugado",
+        "Seguro viagem internacional"
+      ],
+      "hotel": "Hotel na região de Lake Buena Vista (exemplo)",
+      "priceFrom": 8200,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Necessário passaporte válido e visto americano.",
+        "Ingressos dos parques cotados à parte."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1597466599360-3b9775841aec",
+        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "fernando-de-noronha-marco",
+      "title": "Fernando de Noronha",
+      "destinationSlug": "fernando-de-noronha",
+      "scope": "nacional",
+      "categories": [
+        "praia",
+        "a-dois"
+      ],
+      "startDate": "2027-03-10",
+      "endDate": "2027-03-16",
+      "nights": 6,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "Mergulhos, mirantes e o pôr do sol mais famoso do Brasil, em um roteiro para viver com calma.",
+      "included": [
+        "Aéreo ida e volta",
+        "Pousada com café da manhã",
+        "Ilhatour",
+        "Traslados"
+      ],
+      "hotel": "Pousada na Vila dos Remédios (exemplo)",
+      "priceFrom": 4890,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Taxa de Preservação Ambiental e ingresso do Parque Nacional pagos à parte.",
+        "Número de visitantes na ilha é controlado: reserve com antecedência."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "buenos-aires-feriado-maio",
+      "title": "Buenos Aires",
+      "destinationSlug": "argentina",
+      "scope": "internacional",
+      "categories": [
+        "a-dois",
+        "feriados"
+      ],
+      "startDate": "2027-04-29",
+      "endDate": "2027-05-03",
+      "nights": 4,
+      "departureCity": "Belo Horizonte (CNF)",
+      "summary": "Tango, parrillas, cafés históricos e passeios por Palermo, San Telmo e Puerto Madero.",
+      "included": [
+        "Aéreo ida e volta",
+        "Hospedagem com café da manhã",
+        "Traslados",
+        "City tour",
+        "Seguro viagem internacional"
+      ],
+      "hotel": "Hotel em Palermo (exemplo)",
+      "priceFrom": 3100,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Brasileiros podem viajar com RG emitido há menos de 10 anos ou passaporte válido."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1589909202802-8f4aadce1849"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "caldas-novas-ferias-familia",
+      "title": "Caldas Novas | Resort",
+      "destinationSlug": "caldas-novas",
+      "scope": "nacional",
+      "categories": [
+        "resorts",
+        "familia"
+      ],
+      "startDate": "2027-01-20",
+      "endDate": "2027-01-24",
+      "nights": 4,
+      "departureCity": "Belo Horizonte",
+      "summary": "Águas termais e parque aquático para a família inteira aproveitar as férias.",
+      "included": [
+        "Hospedagem em resort",
+        "Pensão completa",
+        "Acesso ao parque aquático"
+      ],
+      "hotel": "Resort com águas termais (exemplo)",
+      "priceFrom": 2390,
+      "priceNote": "por pessoa, em apartamento duplo",
+      "paymentConditions": "Parcelamento no cartão de crédito. Condições confirmadas no momento da cotação.",
+      "importantInfo": [
+        "Transporte até Caldas Novas não incluso (podemos cotar à parte)."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      ],
+      "featured": false
+    }
+  ],
+  "destinations": [
+    {
+      "slug": "salvador",
+      "name": "Salvador",
+      "scope": "nacional",
+      "subtitle": "História, praias, gastronomia e experiências para diferentes estilos de viagem.",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21",
+      "categories": [
+        "praia",
+        "familia",
+        "feriados"
+      ],
+      "why": "Primeira capital do Brasil, Salvador une o centro histórico do Pelourinho, praias urbanas, uma culinária marcante e uma agenda cultural que acontece o ano inteiro. É um destino que funciona bem para casais, famílias e para quem quer combinar cidade e litoral, com fácil acesso à Praia do Forte e à Costa do Sauípe.",
+      "highlights": [
+        "Pelourinho e Centro Histórico",
+        "Elevador Lacerda e Mercado Modelo",
+        "Farol da Barra",
+        "Praia do Forte e Projeto Tamar",
+        "Ilha dos Frades e Ilha de Itaparica",
+        "Observação de baleias jubarte"
+      ],
+      "bestTime": "Faz calor o ano todo. De setembro a março o tempo costuma ser mais seco; de julho a outubro é a temporada de observação de baleias jubarte. Consulte a Renata para o período mais indicado ao seu perfil.",
+      "experiences": [
+        {
+          "title": "Observação de baleias em Salvador",
+          "text": "Uma das experiências que a Renata viveu e indica: sair de barco pela Baía de Todos-os-Santos na temporada das jubartes e acompanhar as baleias de perto. Um passeio para planejar com antecedência e encaixar no roteiro certo.",
+          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f"
+        }
+      ]
+    },
+    {
+      "slug": "porto-de-galinhas",
+      "name": "Porto de Galinhas",
+      "scope": "nacional",
+      "subtitle": "Piscinas naturais, águas mornas e a vila mais charmosa do litoral pernambucano.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "categories": [
+        "praia",
+        "familia",
+        "a-dois"
+      ],
+      "why": "Porto de Galinhas reúne piscinas naturais de águas claras, resorts para todos os perfis e uma vila cheia de restaurantes e lojinhas. É ótimo para famílias com crianças e para casais.",
+      "highlights": [
+        "Piscinas naturais de jangada",
+        "Praia de Muro Alto",
+        "Praia dos Carneiros",
+        "Maracaípe e o encontro do rio com o mar"
+      ],
+      "bestTime": "De setembro a março, com menos chuva. O passeio às piscinas naturais depende da maré baixa.",
+      "experiences": []
+    },
+    {
+      "slug": "maceio",
+      "name": "Maceió",
+      "scope": "nacional",
+      "subtitle": "Mar verde-esmeralda, orla para caminhar e passeios pelo litoral de Alagoas.",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+      "categories": [
+        "praia",
+        "familia",
+        "feriados"
+      ],
+      "why": "Maceió tem uma orla urbana bonita e segura para passear, piscinas naturais a poucos minutos do hotel e praias como Maragogi e São Miguel dos Milagres para bate-voltas.",
+      "highlights": [
+        "Piscinas naturais de Pajuçara",
+        "Praia do Gunga",
+        "Maragogi",
+        "São Miguel dos Milagres"
+      ],
+      "bestTime": "De setembro a março, período mais seco e de mar mais calmo.",
+      "experiences": []
+    },
+    {
+      "slug": "natal",
+      "name": "Natal",
+      "scope": "nacional",
+      "subtitle": "Dunas, lagoas e passeios de buggy no litoral potiguar.",
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+      "categories": [
+        "praia",
+        "familia"
+      ],
+      "why": "Natal combina praias urbanas com passeios de buggy pelas dunas de Genipabu e acesso fácil à Praia da Pipa.",
+      "highlights": [
+        "Dunas de Genipabu",
+        "Praia da Pipa",
+        "Cajueiro de Pirangi",
+        "Lagoa de Arituba"
+      ],
+      "bestTime": "De setembro a fevereiro, com sol na maior parte dos dias.",
+      "experiences": []
+    },
+    {
+      "slug": "aracaju",
+      "name": "Aracaju",
+      "scope": "nacional",
+      "subtitle": "Orla tranquila, culinária sergipana e passeios pelo Rio São Francisco.",
+      "image": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5",
+      "categories": [
+        "praia",
+        "familia"
+      ],
+      "why": "Uma capital tranquila e acolhedora, ótima para famílias, com passeios aos cânions do Xingó e à foz do São Francisco.",
+      "highlights": [
+        "Orla de Atalaia",
+        "Cânions do Xingó",
+        "Crôa do Goré",
+        "Foz do Rio São Francisco"
+      ],
+      "bestTime": "De setembro a março.",
+      "experiences": []
+    },
+    {
+      "slug": "caldas-novas",
+      "name": "Caldas Novas",
+      "scope": "nacional",
+      "subtitle": "Águas termais e parques aquáticos para toda a família.",
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d",
+      "categories": [
+        "resorts",
+        "familia",
+        "feriados"
+      ],
+      "why": "Destino clássico de férias em família, com resorts de águas quentes e parques aquáticos a uma distância que dá para ir de carro saindo de BH.",
+      "highlights": [
+        "Parques aquáticos",
+        "Resorts com águas termais",
+        "Lagoa Quente",
+        "Rio Quente"
+      ],
+      "bestTime": "O ano todo; as águas termais tornam o inverno uma ótima época.",
+      "experiences": []
+    },
+    {
+      "slug": "gramado",
+      "name": "Gramado",
+      "scope": "nacional",
+      "subtitle": "Serra Gaúcha, gastronomia e clima de montanha.",
+      "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543",
+      "categories": [
+        "familia",
+        "a-dois",
+        "feriados"
+      ],
+      "why": "Gramado e Canela encantam com arquitetura europeia, fondue, vinícolas próximas e eventos como o Natal Luz.",
+      "highlights": [
+        "Lago Negro",
+        "Snowland",
+        "Catedral de Pedra em Canela",
+        "Vale dos Vinhedos",
+        "Natal Luz"
+      ],
+      "bestTime": "Inverno (junho a agosto) para o frio; de outubro a janeiro para o Natal Luz.",
+      "experiences": []
+    },
+    {
+      "slug": "jericoacoara",
+      "name": "Jericoacoara",
+      "scope": "nacional",
+      "subtitle": "Dunas, lagoas e pôr do sol na vila mais famosa do Ceará.",
+      "image": "https://images.unsplash.com/photo-1515238152791-8216bfdf89a7",
+      "categories": [
+        "praia",
+        "a-dois"
+      ],
+      "why": "Jeri tem ruas de areia, lagoas de água doce, ventos para kitesurf e um dos pores do sol mais bonitos do país.",
+      "highlights": [
+        "Duna do Pôr do Sol",
+        "Lagoa do Paraíso",
+        "Pedra Furada",
+        "Lagoa Azul"
+      ],
+      "bestTime": "De julho a dezembro para vento e sol; de janeiro a junho as lagoas ficam mais cheias.",
+      "experiences": []
+    },
+    {
+      "slug": "fernando-de-noronha",
+      "name": "Fernando de Noronha",
+      "scope": "nacional",
+      "subtitle": "Mergulho, mirantes e natureza preservada.",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+      "categories": [
+        "praia",
+        "a-dois"
+      ],
+      "why": "Um arquipélago protegido, com algumas das praias mais bonitas do mundo e vida marinha abundante.",
+      "highlights": [
+        "Baía do Sancho",
+        "Baía dos Porcos",
+        "Mirante do Boldró",
+        "Mergulho com tartarugas"
+      ],
+      "bestTime": "De setembro a março para mar mais calmo no lado interno da ilha.",
+      "experiences": []
+    },
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "scope": "internacional",
+      "subtitle": "Buenos Aires, Patagônia, neve e vinhos de Mendoza.",
+      "image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849",
+      "categories": [
+        "a-dois",
+        "feriados"
+      ],
+      "why": "Perto do Brasil e com muitas opções de roteiro: a capital cultural, o frio de Bariloche, os glaciares de El Calafate e as vinícolas de Mendoza.",
+      "highlights": [
+        "Buenos Aires",
+        "Bariloche",
+        "Mendoza",
+        "El Calafate"
+      ],
+      "bestTime": "Buenos Aires o ano todo; Bariloche de junho a setembro para neve.",
+      "experiences": []
+    },
+    {
+      "slug": "chile",
+      "name": "Chile",
+      "scope": "internacional",
+      "subtitle": "Cordilheira dos Andes, vinícolas e deserto do Atacama.",
+      "image": "https://images.unsplash.com/photo-1478827387698-1527781a4887",
+      "categories": [
+        "a-dois",
+        "familia"
+      ],
+      "why": "Santiago é porta de entrada para estações de esqui, vinícolas no Vale do Maipo e para o Atacama.",
+      "highlights": [
+        "Santiago",
+        "Valle Nevado",
+        "Vinícolas",
+        "Atacama",
+        "Valparaíso"
+      ],
+      "bestTime": "Junho a setembro para neve; primavera e outono para vinícolas.",
+      "experiences": []
+    },
+    {
+      "slug": "espanha",
+      "name": "Espanha",
+      "scope": "internacional",
+      "subtitle": "Barcelona, Madri, Andaluzia e o Mediterrâneo.",
+      "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded",
+      "categories": [
+        "a-dois",
+        "familia"
+      ],
+      "why": "A Renata morou e trabalhou em Barcelona, e conhece de perto o país: arte, arquitetura, praias e gastronomia em cada região.",
+      "highlights": [
+        "Barcelona e Gaudí",
+        "Madri",
+        "Sevilha e Granada",
+        "Ilhas Baleares"
+      ],
+      "bestTime": "Primavera (abril a junho) e outono (setembro e outubro).",
+      "experiences": []
+    },
+    {
+      "slug": "italia",
+      "name": "Itália",
+      "scope": "internacional",
+      "subtitle": "Roma, Toscana, Veneza e a Costa Amalfitana.",
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9",
+      "categories": [
+        "a-dois",
+        "familia"
+      ],
+      "why": "História, arte e comida em um só roteiro, combinando cidades clássicas e o litoral.",
+      "highlights": [
+        "Roma",
+        "Florença e Toscana",
+        "Veneza",
+        "Costa Amalfitana"
+      ],
+      "bestTime": "Abril a junho e setembro a outubro.",
+      "experiences": []
+    },
+    {
+      "slug": "grecia",
+      "name": "Grécia",
+      "scope": "internacional",
+      "subtitle": "Atenas e as ilhas do Mar Egeu.",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077",
+      "categories": [
+        "a-dois",
+        "praia"
+      ],
+      "why": "Santorini, Mykonos e Atenas formam um dos roteiros mais pedidos para lua de mel.",
+      "highlights": [
+        "Atenas e Acrópole",
+        "Santorini",
+        "Mykonos",
+        "Creta"
+      ],
+      "bestTime": "Maio a outubro.",
+      "experiences": []
+    },
+    {
+      "slug": "caribe",
+      "name": "Caribe",
+      "scope": "internacional",
+      "subtitle": "Cancún, Punta Cana, Aruba e resorts all inclusive.",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+      "categories": [
+        "praia",
+        "resorts",
+        "a-dois",
+        "familia"
+      ],
+      "why": "Mar azul-turquesa e resorts all inclusive para relaxar sem preocupação, a dois ou em família.",
+      "highlights": [
+        "Cancún e Riviera Maya",
+        "Punta Cana",
+        "Aruba",
+        "Curaçao"
+      ],
+      "bestTime": "Dezembro a abril, fora da temporada de furacões.",
+      "experiences": []
+    },
+    {
+      "slug": "orlando",
+      "name": "Orlando",
+      "scope": "internacional",
+      "subtitle": "Parques temáticos e compras para toda a família.",
+      "image": "https://images.unsplash.com/photo-1597466599360-3b9775841aec",
+      "categories": [
+        "familia"
+      ],
+      "why": "O destino mais pedido para férias em família, com parques, outlets e roteiros que podem ser montados dia a dia.",
+      "highlights": [
+        "Walt Disney World",
+        "Universal Orlando",
+        "Kennedy Space Center",
+        "Outlets"
+      ],
+      "bestTime": "Janeiro a março e setembro a novembro costumam ter parques menos cheios.",
+      "experiences": []
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Cliente Crystal (exemplo)",
+      "destination": "Gramado",
+      "text": "Substitua por um feedback real. O escopo sugere começar pelo depoimento recente da viagem a Gramado."
+    },
+    {
+      "name": "Cliente Crystal (exemplo)",
+      "destination": "Porto de Galinhas",
+      "text": "Substitua por um feedback real de cliente, com nome, destino e, se autorizado, uma foto da viagem."
+    },
+    {
+      "name": "Cliente Crystal (exemplo)",
+      "destination": "Buenos Aires",
+      "text": "Substitua por um feedback real de cliente. Depoimentos são cadastrados pelo painel em /studio."
+    }
+  ]
+}
