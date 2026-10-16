@@ -100,3 +100,24 @@ export const Sparkle = ({ className }: P) => (
     <path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6" />
   </svg>
 );
+
+export const Suitcase = ({ className }: P) => (
+  <svg {...base(className)}>
+    <rect x="4" y="7" width="16" height="13" rx="2" />
+    <path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M9 11v5M15 11v5" />
+  </svg>
+);
+
+export const Lightbulb = ({ className }: P) => (
+  <svg {...base(className)}>
+    <path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z" />
+  </svg>
+);
+
+export const Tag = ({ className }: P) => (
+  <svg {...base(className)}>
+    <path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9-9-9Z" />
+    <circle cx="8" cy="8" r="1.5" />
+    <path d="m10 15 5-5" />
+  </svg>
+);

@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Manrope, Playfair_Display } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const body = Manrope({ subsets: ["latin"], variable: "--font-body", display: "swap" });
-const heading = Playfair_Display({ subsets: ["latin"], variable: "--font-heading", display: "swap" });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://crystalworldturismo.com.br"),
@@ -18,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${body.variable} ${heading.variable}`}>
+    <html lang="pt-BR" className={poppins.variable}>
       <body>{children}</body>
     </html>
   );

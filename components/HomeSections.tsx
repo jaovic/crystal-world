@@ -3,7 +3,7 @@ import Link from "next/link";
 import { img } from "@/lib/format";
 import type { SiteSettings, Testimonial } from "@/lib/types";
 import { messages, waLink } from "@/lib/whatsapp";
-import { Sparkle, Star } from "./Icons";
+import { Lightbulb, Sparkle, Star, Suitcase, Tag } from "./Icons";
 import { SectionHeading } from "./Section";
 import { WaButton } from "./WaButton";
 
@@ -90,19 +90,37 @@ export function TestimonialCard({ t }: { t: Testimonial }) {
   );
 }
 
+const VIP_BENEFITS = [
+  { icon: Suitcase, text: "Pacotes selecionados com condições especiais" },
+  { icon: Lightbulb, text: "Dicas, notícias, roteiros e tendências de viagem" },
+  { icon: Tag, text: "Ofertas em produtos e serviços para viajantes" },
+];
+
 export function VipSection({ settings }: { settings: SiteSettings }) {
   const href = settings.vipGroupUrl || waLink(settings.whatsapp, messages.vip());
   return (
     <section className="container-site py-20">
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy-800 to-navy-950 px-6 py-14 text-center text-white md:px-16">
-        <p className="eyebrow !text-gold-500">Grupo VIP Crystal World</p>
-        <h2 className="mx-auto mt-3 max-w-xl font-display text-3xl md:text-4xl">Quer receber nossas oportunidades primeiro?</h2>
-        <p className="mx-auto mt-4 max-w-xl text-white/75">
-          Entre para o Grupo VIP e acompanhe pacotes selecionados, novidades e condições especiais pelo WhatsApp.
-        </p>
-        <WaButton href={href} source="grupo-vip" event="vip" className="btn btn-gold mt-8">
-          Entrar para o Grupo VIP
-        </WaButton>
+      <div className="grid overflow-hidden rounded-3xl bg-gradient-to-br from-sky-500 via-navy-700 to-navy-900 text-white lg:grid-cols-[1.1fr_1fr]">
+        <div className="px-6 py-12 md:px-12 md:py-14">
+          <p className="text-xs font-semibold tracking-[0.25em] text-white/80 uppercase">WhatsApp · Gratuito</p>
+          <h2 className="mt-3 font-display text-4xl md:text-5xl">Grupo VIP Crystal</h2>
+          <p className="mt-4 max-w-md text-lg text-white/85">
+            No nosso grupo VIP do WhatsApp você recebe o que os outros clientes só descobrem depois.{" "}
+            <strong className="text-white">Vem com a gente!</strong>
+          </p>
+          <WaButton href={href} source="grupo-vip" event="vip" className="btn btn-gold mt-8">
+            Entrar para o Grupo VIP
+          </WaButton>
+          <p className="mt-6 font-display text-2xl text-white/90">#boraviajar</p>
+        </div>
+        <ul className="flex flex-col justify-center gap-4 px-6 pb-12 md:px-12 lg:py-14">
+          {VIP_BENEFITS.map(({ icon: Icon, text }) => (
+            <li key={text} className="flex items-center gap-4 rounded-2xl border border-white/40 bg-white/5 px-5 py-4 backdrop-blur-sm">
+              <Icon className="h-8 w-8 shrink-0 text-white" />
+              <span className="text-base md:text-lg">{text}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

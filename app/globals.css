@@ -16,7 +16,7 @@
   --color-whatsapp: #25d366;
 
   --font-sans: var(--font-body);
-  --font-display: var(--font-heading);
+  --font-display: var(--font-body);
 }
 
 html {
@@ -31,6 +31,12 @@ body {
 }
 
 @layer components {
+  /* Headings: Poppins semibold (font-family comes from the font-display utility) */
+  .font-display {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
   .container-site {
     width: 100%;
     max-width: 1200px;
